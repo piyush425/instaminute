@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chat">
+            <div class="chat-header">
+                <div class="profile">
+                    <div class="left">
+                        <img src="https://user-images.githubusercontent.com/78302050/147387857-74ab4d84-36c9-416a-ae42-4e7b007a3269.png"
+                            class="arrow">
+                        <img src="https://user-images.githubusercontent.com/78302050/147387828-5b0f45f1-5733-4ff9-8578-12cfd9eeb28b.png"
+                            class="pp">
+                        <h2>Engineer's</h2>
+                        <span>online</span>
+                    </div>
+                    <div class="right">
+                        <img src="https://user-images.githubusercontent.com/78302050/147387829-f1932498-f222-4207-9834-685d1545b246.png"
+                            class="icon">
+                        <img src="https://user-images.githubusercontent.com/78302050/147387827-556b0204-de23-458e-80f2-df1527301c4c.png"
+                            class="icon">
+                        <img src="https://user-images.githubusercontent.com/78302050/147387825-4dc2a8d7-61be-4679-b4bf-28f47a4418e8.png"
+                            class="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="chat-box">
+               
+                
+            </div>
+            <div class="chat-footer">
+                <img src="https://user-images.githubusercontent.com/78302050/147387820-a9fe9f52-59bf-49ee-809e-796e04df9285.png"
+                    class="emo">
+                <textarea id="text-area" placeholder="Type a message"></textarea>
+                <div class="icons">
+                    <img
+                        src="https://user-images.githubusercontent.com/78302050/147387814-c90f5802-dfe5-4bdd-9d5b-5da2359fed3a.png">
+                    <img
+                        src="https://user-images.githubusercontent.com/78302050/147387816-9e8b9a3c-13e4-4d46-9e9a-8ccd774d388a.png">
+                </div>
+                <img src="https://user-images.githubusercontent.com/78302050/147387824-3d47ea91-c927-4e06-9624-c0b7918de342.png"
+                    class="mic">
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+
+
+        <!--for realtime timer -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        
+        
+        
+        <script src="client.js"></script>
+
+</body>
+
+</html>
